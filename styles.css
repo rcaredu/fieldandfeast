@@ -208,8 +208,8 @@ header p {
 
 .primary-nav ul {
   display: flex;
-  gap: 4rem;
   justify-content: center;
+  gap: 3rem;
 }
 
 .primary-nav a {
@@ -315,11 +315,19 @@ header img {
   #gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+  figcaption {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
 }
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px) {
   #gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+  figcaption {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 
